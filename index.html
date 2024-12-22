@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h2>Quiz Uygulaması</h2>
+            <div class="timer">Kalan Süre: <span id="time">60</span> saniye</div>
+        </div>
+        <div class="question-container">
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="controls">
+            <button id="prev" disabled>Önceki</button>
+            <button id="next">Sonraki</button>
+        </div>
+        <div class="score" id="score"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
